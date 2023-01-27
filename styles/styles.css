@@ -15,14 +15,14 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 16px;
+    gap: 18px;
 }
 
 /*Header*/
 .header {
     background-color: aquamarine;
     margin: 0;
-    padding: 16px;
+    padding: 18px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,12 +33,38 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Content sub-section 1*/
+
 .body1 {
+    background-color: darkcyan; /*Filler color to visualize sections*/
+    font-size: 18px;
+    margin: 0;
+    padding: 18px;
     display: flex;
+    flex-direction: column;
 }
 
 .body1-header {
-    background-color: darkmagenta;
+    font-size: 32px;
+    font-weight: 700;
     margin: 0;
+    padding: 0;
 }
+
+.body1-button {
+    font-family: Roboto, sans-serif;
+    width: 100px;
+}
+
+/*Content sub-section 2*/
+.body2 {
+    display: flex;
+        align-items: center;
+    justify-content: space-between;
+}
+
+.body2-header{
+    text-align: center;
+}
+
+/*Content sub-section 3*/
+/*Content sub-section 4/

@@ -2,12 +2,17 @@
 /*Page main axis will be column*/
 body {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
-    min-height: 100vh;
+    min-height: 100vh; 
     /*Flexbox properties*/
     display: flex;
     flex-direction: column;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 ul {
@@ -20,7 +25,8 @@ ul {
 
 /*Header*/
 .header {
-    background-color: aquamarine;
+    background-color: #1f2937;
+    color: #ffffff;
     margin: 0;
     padding: 18px;
     display: flex;
@@ -28,6 +34,9 @@ ul {
     justify-content: space-between;
 }
 
+.logo {
+    font-size: 24px;
+}
 /*Main body content*/
 .body-container {
     font-family: Arial, Helvetica, sans-serif;
@@ -35,7 +44,8 @@ ul {
 
 
 .body1 {
-    background-color: darkcyan; /*Filler color to visualize sections*/
+    background-color: #1f2937; /*Filler color to visualize sections*/
+    color: #ffffff;
     font-size: 18px;
     margin: 0;
     padding: 18px;
@@ -45,26 +55,68 @@ ul {
 
 .body1-header {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 900;
     margin: 0;
     padding: 0;
 }
 
 .body1-button {
+    background-color: #3882f6;
     font-family: Roboto, sans-serif;
     width: 100px;
 }
 
 /*Content sub-section 2*/
 .body2 {
+    text-align: center;
     display: flex;
-        align-items: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
 }
 
 .body2-header{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
     text-align: center;
 }
 
+.card {
+
+}
+
+.card-img {
+    border-color: #3882f6;
+}
+
+.card-text {
+    color: #1f2937;
+    font-size: 16px;
+}
+
 /*Content sub-section 3*/
-/*Content sub-section 4/
+.body3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+    display: flex;
+}
+
+/*Content sub-section 4*/
+.body4 {
+    margin: 0;
+    display: flex;
+}
+
+
+/*Footer*/
+.footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 16px;
+}

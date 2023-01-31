@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -28,7 +32,7 @@ ul {
     background-color: #1f2937;
     color: #ffffff;
     margin: 0;
-    padding: 18px;
+    padding: 18px 48px 48px 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,27 +51,53 @@ ul {
     background-color: #1f2937; /*Filler color to visualize sections*/
     color: #ffffff;
     font-size: 18px;
+    height: 300px;
     margin: 0;
-    padding: 18px;
+    padding: 0 48px 0 48px;
+    display: flex;
+}
+
+.body1-container2{
+    margin-right: 36px;
     display: flex;
     flex-direction: column;
+    flex-basis: 50%;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.body1-container3{
+    display: flex;
+    flex-basis: 50%;
+    flex-shrink: 1;
 }
 
 .body1-header {
     font-size: 32px;
     font-weight: 900;
-    margin: 0;
+    margin-bottom: 8px;
     padding: 0;
+}
+
+.body1-text {
+    margin-bottom: 8px;
 }
 
 .body1-button {
     background-color: #3882f6;
+    color: #ffffff;
     font-family: Roboto, sans-serif;
     width: 100px;
 }
 
+.body1-img {
+    height: 230px;
+    width: 600px;
+}
+
 /*Content sub-section 2*/
 .body2 {
+    height: 200px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -101,12 +131,14 @@ ul {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
+    height: 200px;
     margin: 0;
     display: flex;
 }
 
 /*Content sub-section 4*/
 .body4 {
+    height: 200px;
     margin: 0;
     display: flex;
 }

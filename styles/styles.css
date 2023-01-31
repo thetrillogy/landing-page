@@ -51,7 +51,7 @@ ul {
     background-color: #1f2937; /*Filler color to visualize sections*/
     color: #ffffff;
     font-size: 18px;
-    height: 300px;
+    height: 400px;
     margin: 0;
     padding: 0 48px 0 48px;
     display: flex;
@@ -69,12 +69,15 @@ ul {
 .body1-container3{
     display: flex;
     flex-basis: 50%;
+    flex-grow: 1;
     flex-shrink: 1;
+    justify-content: flex-end;
 }
 
 .body1-header {
     font-size: 32px;
     font-weight: 900;
+    margin: 0 0 8px 0;
     margin-bottom: 8px;
     padding: 0;
 }
@@ -91,13 +94,13 @@ ul {
 }
 
 .body1-img {
-    height: 230px;
-    width: 600px;
+    height: 75%;
+    width: 100%;
 }
 
 /*Content sub-section 2*/
 .body2 {
-    height: 200px;
+    height: 400px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -131,14 +134,14 @@ ul {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
-    height: 200px;
+    height: 400px;
     margin: 0;
     display: flex;
 }
 
 /*Content sub-section 4*/
 .body4 {
-    height: 200px;
+    height: 400px;
     margin: 0;
     display: flex;
 }

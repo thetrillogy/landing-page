@@ -1,4 +1,4 @@
-c/*Divide styles in order respective to layout*/
+/*Divide styles in order respective to layout*/
 /*Page main axis will be column*/
 /*MOBILE COMPATIBILITY NOT WORKED ON YET*/
 body {
@@ -58,7 +58,7 @@ ul {
     font-size: 18px;
     height: 500px;
     margin: 0;
-    padding: 0 48px 0 48px;
+    padding: 0 64px 0 64px;
     display: flex;
 }
 
@@ -138,6 +138,8 @@ ul {
 .card-text {
     color: #1f2937;
     font-size: 16px;
+    font-weight: 600;
+    text-align: center;
 }
 
 /*Content sub-section 3*/
@@ -147,9 +149,10 @@ ul {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
+    text-align: center;
     height: 500px;
     margin: 0;
-    padding: 48px 48px 0 48px;
+    padding: 0px 48px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -161,8 +164,8 @@ ul {
     border-color: hsl(0, 0%, 0%);
     color: #FFD700;
     font-size: 50px;
+    padding-top: 18px;
 	text-align: center;
-    display: block;
 }
 
 /*Content sub-section 4*/

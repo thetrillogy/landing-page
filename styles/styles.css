@@ -16,10 +16,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    margin: 0;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -88,15 +84,17 @@ ul {
 }
 
 .body1-text {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .body1-button {
     background-color: #3882f6;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 600;
-    width: 120px;
+    width: 130px;
 }
 
 .body1-img {
@@ -109,7 +107,7 @@ ul {
 /*Content sub-section 2*/
 /*Advertise services*/
 .body2 {
-    height: 500px;
+    height: 448px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -171,10 +169,55 @@ ul {
 /*Content sub-section 4*/
 .body4 {
     height: 500px;
-    margin: 0;
+    padding: 0 64px 0 64px;
     display: flex;
 }
 
+.CTA-container {
+    background-color: #3882f6;
+    height: 40px;
+    width: auto;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.CTA-header-para-container {
+    display: flex;
+    flex-basis: 75%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.CTA-header {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.CTA {
+    color: #ffffff;
+}
+
+.CTA-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 25%;
+}
+
+.CTA-button {
+    background-color: #3882f6;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    width: 130px;
+}
 
 /*Footer*/
 .footer {
@@ -184,3 +227,6 @@ ul {
     text-align: center;
     padding: 16px;
 }
+
+/*Comments for future: Go back later to format into mobile and tablet, or smaller resolutions. Add carousel to testimonials (via Bootstrap). 
+Refine styling of the website whether if it was theme, images, or better grammar. Lastly, debug and cleanup any code.*/
